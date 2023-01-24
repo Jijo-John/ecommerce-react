@@ -1,17 +1,23 @@
 
 import { Button } from '@mui/material';
 import './App.css';
-import Header from './Components/Header';
 import HeroSection from './Components/HeroSection'
+import Header from './Components/Header';
+import Signup from './Components/Signup';
+import { Center, Container } from './Components/Utils';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <HeroSection />
-      zjxn jkn lkjnlj n
-    </div>
+    <>
+    <Header />
+    <Center>
+      {/* <HeroSection /> */}
+      <Signup />
+    </Center>
+    </>
   );
 }
+
+
 
 export default App;
